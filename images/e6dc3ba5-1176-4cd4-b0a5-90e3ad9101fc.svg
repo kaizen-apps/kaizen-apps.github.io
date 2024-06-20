@@ -1,0 +1,15 @@
+<svg class="c1wya cjftm cd1hm cta51 cu4sx clgft c07ti cj3ve cz0js c8ch0" width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lg-1">
+                                            <stop stop-color="#0F172A" stop-opacity="0%" offset="0%"></stop>
+                                            <stop stop-color="#0F172A" offset="100%"></stop>
+                                        </linearGradient>
+                                    </defs>
+                                    <g class="cxipd c6jpl" fill-rule="evenodd">
+                                        <circle class="csy62" cx="400" cy="400" r="200"></circle>
+                                        <circle class="csy62 cy174" cx="400" cy="400" r="200"></circle>
+                                        <circle class="csy62 cv1ql" cx="400" cy="400" r="200"></circle>
+                                        <circle class="csy62 crrby" cx="400" cy="400" r="200"></circle>
+                                        <rect fill="url(#lg-1)" width="800" height="800"></rect>
+                                    </g>
+                                </svg>
