@@ -82,16 +82,16 @@
                         <!-- Hero content -->
                         <div class="cspfd cz7a3 c7d3r">
 
-                            <h1 class="c7kbs cod8m c9vhe" data-aos="fade-up">A powerful suite of user-centric products</h1>
+                            <h1 class="c7kbs cod8m c9vhe" data-aos="fade-up">A powerful suite of editor-centric products</h1>
                             <p class="cas7u chxb2 cjrb0" data-aos="fade-up" data-aos-delay="100">Compare your media side by side and export collages.</p>
                             <div class="cspfd cn2c8 ckr19 cqt5v cjkr6 cejmo c53ft c5sau" data-aos="fade-up" data-aos-delay="200">
                                 <div>
-                                    <a class="cvsdg cwrcu cjt4o cuo27 cfsny c0j3e cxc8s" href="signup.html">
+                                    <a id="buy" class="cvsdg cwrcu cjt4o cuo27 cfsny c0j3e cxc8s" href="#">
                                         Buy Now! <span class="c9ssy czzfn cuwpf cvcf8 cx19h c7oke cgwp2">-&gt;</span>
                                     </a>
                                 </div>
                                 <div>
-                                    <a class="cvsdg cwrcu cqkua cgac8 cwjnx cfsny cd83u" href="#0">Free Version Version</a>
+                                    <a id="free" class="cvsdg cwrcu cqkua cgac8 cwjnx cfsny cd83u" href="#0">Free Version Version</a>
                                 </div>
                             </div>
 
@@ -365,25 +365,25 @@
                                     <!-- Filters -->
                                     <div class="cod8m cp97c">
                                         <div class="cz3j1 clanb c45i7">
-                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '1' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '1'">Everyone</button>
-                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '2' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '2'">Freelancers</button>
-                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '3' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '3'">Organizations</button>
+                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '1' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '1'">Overlay</button>
+                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '2' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '2'">Watch</button>
+                                            <button class="clz1p c5env c8kk7 ck4xu csm9a cfsny" :class="category === '3' ? 'cuo27 cjt4o' : 'cwjnx cgac8 cd83u cqkua'" @click="category = '3'">Create</button>
                                         </div>
                                     </div>
 
                                     <!-- Content -->
                                     <div x-cloak="">
                                         <div x-show="category === '1'">
-                                            <h3 class="c63gi czc9b c9vhe">Kickstart your project with these tools</h3>
-                                            <div class="cijhn cjrb0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
+                                            <h3 class="c63gi czc9b c9vhe">Overlay Feature for Precise Design Comparison</h3>
+                                            <div class="cijhn cjrb0">Easily compare different designs with our overlay feature. Whether you are examining the subtle differences between two images or videos, our tool allows you to overlay them perfectly, ensuring no detail is missed. Ideal for designers and developers looking to refine their work with pinpoint accuracy.</div>
                                         </div>
                                         <div x-show="category === '2'">
-                                            <h3 class="c63gi czc9b c9vhe">Tech tools to kickstart freelance life</h3>
-                                            <div class="cijhn cjrb0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
+                                            <h3 class="c63gi czc9b c9vhe">Multi-Stream Viewer for Live Events</h3>
+                                            <div class="cijhn cjrb0">Stay on top of all your favorite livestreams at once with our multi-stream viewer. Whether you're following multiple gaming streams, live events, or news broadcasts, our tool synchronizes them for a seamless viewing experience, ensuring you never miss a moment.</div>
                                         </div>
                                         <div x-show="category === '3'">
-                                            <h3 class="c63gi czc9b c9vhe">Share your plan and clarify project risk</h3>
-                                            <div class="cijhn cjrb0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
+                                            <h3 class="c63gi czc9b c9vhe">Collage Creator for Stunning Visual Projects</h3>
+                                            <div class="cijhn cjrb0">Unleash your creativity with our collage creator. Combine multiple photos and videos into beautiful collages effortlessly. Whether you're working on a personal project or professional presentation, our tool provides the flexibility and ease to craft visually appealing collages that stand out.</div>
                                         </div>
                                     </div>
 
@@ -756,12 +756,12 @@
                             <!-- CTA row -->
                             <div class="cpjqk cqcvb cj8jb cgac8 cdqef cqxcn cqw6s c4von cgkja cuw45"></div>
                             <div class="c7vhg clanb cqcvb cj8jb c2qca cgac8 cdqef cveh3 c3cmv c7yca">
-                                <a class="clz1p cwrcu c2p5r cjt4o cuo27 cfsny c0j3e cxc8s" href="#0">
+                                <a id="buy" class="clz1p cwrcu c2p5r cjt4o cuo27 cfsny c0j3e cxc8s" href="#">
                                     Buy Now! <span class="c9ssy cpjqk czzfn cuwpf cvcf8 cx19h c7oke cgwp2 c7c5q">-&gt;</span>
                                 </a>
                             </div>
                             <div class="c88j6 clanb cqcvb cj8jb c2qca cgac8 cdqef cveh3 c3cmv c7yca">
-                                <a class="clz1p cwrcu c2p5r cjt4o cuo27 cfsny c0j3e cxc8s" href="#0">
+                                <a id="free" class="clz1p cwrcu c2p5r cjt4o cuo27 cfsny c0j3e cxc8s" href="#0">
                                     Free Version <span class="c9ssy cpjqk czzfn cuwpf cvcf8 cx19h c7oke cgwp2 c7c5q">-&gt;</span>
                                 </a>
                             </div>
@@ -875,19 +875,19 @@
             
                         <!-- Section header -->
                         <div class="cspfd cz7a3 cq1f5 c7d3r cabcs" data-aos="fade-up">
-                            <h2 class="ckzhe c9vhe">Join the most flexible user-centric platform for teams</h2>
+                            <h2 class="ckzhe c9vhe">Join the most flexible editor-centric platform for individuals</h2>
                         </div>
 
                         <!-- Buttons -->
                         <div class="c7d3r">
                             <div class="cspfd cn2c8 ckr19 cqt5v cjkr6 cejmo c53ft c5sau">
                                 <div data-aos="fade-up" data-aos-delay="100">
-                                    <a class="cvsdg cwrcu cjt4o cuo27 cfsny c0j3e cxc8s" href="signup.html">
+                                    <a id="buy" class="cvsdg cwrcu cjt4o cuo27 cfsny c0j3e cxc8s" href="#">
                                         Buy Now! <span class="c9ssy czzfn cuwpf cvcf8 cx19h c7oke cgwp2">-&gt;</span>
                                     </a>
                                 </div>
                                 <div data-aos="fade-up" data-aos-delay="200">
-                                    <a class="cvsdg cwrcu cqkua cgac8 cwjnx cfsny cd83u" href="#0">Free Version Version</a>
+                                    <a id="free" class="cvsdg cwrcu cqkua cgac8 cwjnx cfsny cd83u" href="#0">Free Version Version</a>
                                 </div>
                             </div>
                         </div>
@@ -1053,4 +1053,22 @@
 
 
 <script>console.log("%cImportant!", "color: blue; font-size: x-large");console.log("%cThe page you are viewing is for demo purposes only. CSS and HTML have been minified and class names have been shortened to improve the page load time. Download our templates from https://cruip.com/ 😉", "font-size: large");</script><script>const pagesList = [{"name":"Home","url":"https://preview.cruip.com/cube/index.html","active":true},{"name":"Sign in","url":"https://preview.cruip.com/cube/signin.html","active":false},{"name":"Sign up","url":"https://preview.cruip.com/cube/signup.html","active":false},{"name":"Reset password","url":"https://preview.cruip.com/cube/reset-password.html","active":false}];if(window != top){window.parent.postMessage(pagesList, "https://cruip.com")};</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8958c4f979aa9e53","r":1,"version":"2024.4.1","token":"59cc17d45d734f9ba118c63036ab1b84"}' crossorigin="anonymous"></script>
+
+<script>
+    var isMac = navigator.platform.toUpperCase().indexOf('MAC')>=0;
+    let buyLink = 'https://kirankunigiri.com/media-compare/windows';
+    if (isMac) buyLink = 'https://kirankunigiri.com/media-compare/mac';
+    let freeLink = 'https://kirankunigiri.com/media-compare/windows';
+    if (isMac) freeLink = 'https://kirankunigiri.com/media-compare/mac';
+
+    var elms = document.querySelectorAll("[id='buy']");
+ 
+    for(var i = 0; i < elms.length; i++) 
+      elms[i].onclick = function () { window.open(buyLink); };
+
+    var elms = document.querySelectorAll("[id='free']");
+ 
+    for(var i = 0; i < elms.length; i++) 
+      elms[i].onclick = function () { window.open(freeLink); };
+</script>
 </body></html>
